@@ -1,0 +1,8 @@
+# exclude marp generated files
+*.pdf
+*.ppt
+*.html
+
+# git
+.git/
+.gitignore

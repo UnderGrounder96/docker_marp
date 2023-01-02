@@ -1,0 +1,14 @@
+---
+services:
+  demo:
+    image: debian
+
+    container_name: demo_docker
+
+    ports:
+      - 9999:9999
+
+    environment:
+      - ENV_VAR="development"
+
+    restart: unless-stopped
